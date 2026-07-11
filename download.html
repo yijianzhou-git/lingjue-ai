@@ -250,6 +250,8 @@ h1 { font-size:28px; font-weight:800; background:linear-gradient(135deg,#a5b4fc,
 
 <script>
 const DOWNLOAD_URL = 'https://pan.baidu.com/s/1FvI46TBJVBFPYy44tJhNVw?pwd=jzlj';
+const GITHUB_PAGES_URL = 'https://github.com/yijianzhou-git/lingjue-ai/releases';
+// GitHub Pages 备用下载地址
 
 function isMobile() {
     const ua = navigator.userAgent.toLowerCase();
@@ -333,7 +335,11 @@ function showPayment() {
     modal.style.display = modal.style.display === 'none' ? 'block' : 'none';
 }
 
-function openGithub() {
+function openGitHubPages() {
+    window.open("https://yijianzhou-git.github.io/lingjue-ai/lingjue_installer_v2.0.1.exe", "_blank");
+}
+
+function openGithub()) {
     window.open('https://github.com/yijianzhou-git/lingjue/releases', '_blank');
 }
 
@@ -341,3 +347,4 @@ init();
 </script>
 </body>
 </html>
+
